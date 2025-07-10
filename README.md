@@ -1,2 +1,3 @@
-# jewellery-ecom-site
-A responsive jewellery e-commerce site built from scratch with HTML, CSS, and JavaScript — still a work in progress.
+# Jewellery E-commerce Website
+
+Jewellery website with real-time cart updates, modal cart UI, responsive layout, and localStorage integration, form validation — built from scratch using HTML, CSS, and vanilla JavaScript.
