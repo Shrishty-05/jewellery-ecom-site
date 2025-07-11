@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --main--color : #fffbe5;
+    --secondary--color : #56260f;
+    --detailing--color : #24006a;
+    --back--color : #c99a5b;
+    --style--font : "Lavishly Yours", cursive;
+    --main--font : "Playfair Display", serif;
+}
+
+body{
+    background-color: var(--main--color);
+    box-sizing: border-box;
+}
+
+.products{
+    background-color: var(--main--color);
+    margin-top: 160px;
+    height : 100%;
+    width: 100%;
+    padding-left : 10%;
+    padding-right: 10%;
+
+    display : grid;
+    grid-template-columns: repeat(2,1fr);
+    gap : 10px;
+}
+
+@media (max-width:768px){
+    .products{
+        margin-top : 200px;
+    }
+}
+
+.product-card{
+    color: var(--secondary--color);
+    border : 3px solid var(--back--color);
+    width : 100%;
+    height : auto;
+    padding : 10%;
+}
+
+.product-name{
+    font-size: 2rem;
+}
+
+.cart-btn{
+    width : auto;
+    height : auto;
+    padding : 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid var(--back--color);
+    background-color: var(--back--color);
+    color : var(--main--color);
+    font-size: 1rem;
+}
+    .description{
+        font-size: 1rem;
+    }
+    .price {
+        font-size: 2rem;
+    }
+
+
+/* effects and transitions */
+
+/* cart-button hover */
+.cart-btn:hover{
+    background-color: white;
+    color : #24006a;
+    font-weight: bolder;
+    border: 2px solid #24006a;
+}
+
+/* responsiveness */
+@media(max-width : 425px){
+   
+   .products{
+    margin-top: 160px;
+    padding : 0;
+    gap : 0;
+}
+
+.product-name{
+    font-size: 1.5rem;
+}
+
+.cart-btn{
+    font-size: 1rem;
+}
+    .description{
+        font-size: .8rem;
+    }
+    .price {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+

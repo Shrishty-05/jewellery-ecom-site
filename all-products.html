@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./all-products-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- load nav-bar.html -->
+    <div id="nav-bar"></div>
+
+
+    <div class="products">
+
+        <div class="product-card">
+            <img src="#" class="product-img">
+            <p class="product-name"> Aurora Crystal Pendant</p> 
+            <p class="description"> dainty teardrop pendant featuring a shimmering Swarovski crystal, 
+            perfect for elegant evening looks.</p>
+            <p class="price">₹299</p>
+            <button type="button" class="cart-btn">Add to bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="#" class="product-img">
+            <p class="product-name">Zahra Kundan Choker Set</p> 
+            <p class="description">Traditional Indian choker adorned with premium Kundan stones and paired with matching earrings.</p>
+            <p class="price"> ₹499</p>
+            <button type="button" class="cart-btn">Add to bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="#" class="product-img">
+            <p class="product-name">Celeste Star Hoop Earrings</p> 
+            <p class="description">Modern gold hoops embellished with tiny star charms and cubic zirconia sparkle.</p>
+            <p class="price">₹199</p>
+            <button type="button" class="cart-btn">Add to bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="#" class="product-img">
+            <p class="product-name">Eira Minimal Pearl Bracelet</p> 
+            <p class="description">A single freshwater pearl rests on a delicate gold-plated chain, 
+                ideal for layering or minimalist styling.</p>
+            <p class="price">₹999</p>
+            <button type="button" class="cart-btn">Add to bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="#" class="product-img">
+            <p class="product-name">Name</p> 
+            <p class="description">Lorem ipsum dolor, sit amet 
+                consectetur adipisicing elit. Molestias, numquam.</p>
+            <p class="price">$100</p>
+            <button type="button" class="cart-btn">Add to bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="#" class="product-img">
+            <p class="product-name">Name</p> 
+            <p class="description">Lorem ipsum dolor, sit amet 
+                consectetur adipisicing elit. Molestias, numquam.</p>
+            <p class="price">$100</p>
+            <button type="button" class="cart-btn">Add to bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="#"class="product-img">
+            <p class="product-name">Name</p> 
+            <p class="description">Lorem ipsum dolor, sit amet 
+                consectetur adipisicing elit. Molestias, numquam.</p>
+            <p class="price">$100</p>
+            <button type="button" class="cart-btn">Add to bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="#" class="product-img">
+            <p class="product-name">Name</p> 
+            <p class="description">Lorem ipsum dolor, sit amet 
+                consectetur adipisicing elit. Molestias, numquam.</p>
+            <p class="price">$100</p>
+            <button type="button" class="cart-btn">Add to bag</button>
+        </div>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+    <script>
+
+        // loadNavbar.js
+        fetch("nav-bar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("nav-bar").innerHTML = data;
+                initNavBar();
+         });
+    </script>
+    
+</body>
+
+</html>
