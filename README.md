@@ -28,4 +28,3 @@ The original `index.js` file was removed due to sensitive information (API keys,
 
 If you'd like to view the full working code, feel free to contact me directly.
 
-
