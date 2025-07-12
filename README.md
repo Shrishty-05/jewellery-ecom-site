@@ -10,6 +10,11 @@ A fully responsive jewellery website featuring real-time cart updates, modal car
 -  Form validation
 -  Clean, component-based structure
 
+# Built with
+- HTML5
+- CSS3 (responsive + animations)
+- Vanilla JavaScript (DOM + logic)
+
 # Folder Structure
 - `index.html` – Main homepage
 - `all-products.html` – Product listings
@@ -17,12 +22,10 @@ A fully responsive jewellery website featuring real-time cart updates, modal car
 - `index.js` – All cart + modal logic
 - `icons/`, `project-images/` – Visual assets
 
----
+# Note on index.js
 
-# Live Preview 
+The original `index.js` file was removed due to sensitive information (API keys, config details).  
+
+If you'd like to view the full working code, feel free to contact me directly.
 
 
-# Built with
-- HTML5
-- CSS3 (responsive + animations)
-- Vanilla JavaScript (DOM + logic)
