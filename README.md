@@ -22,9 +22,3 @@ A fully responsive jewellery website featuring real-time cart updates, modal car
 - `index.js` – All cart + modal logic
 - `icons/`, `project-images/` – Visual assets
 
-# Note on index.js
-
-The original `index.js` file was removed due to sensitive information (API keys, config details).  
-
-If you'd like to view the full working code, feel free to contact me directly.
-
